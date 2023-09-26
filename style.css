@@ -48,6 +48,12 @@ header, footer{
   color: #F9FAF8;
 }
 
+.sub{
+  display: flex;
+  flex-direction: column;
+  flex: 0 4 auto;
+}
+
 .sub-logo{
   display: flex;
   flex: 0 1 auto;
@@ -70,6 +76,10 @@ button{
   border: 1px solid #3882F6;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.first-button{
+  margin-right: 290px;
 }
 
 .sub-image{
@@ -194,4 +204,4 @@ footer{
   align-items: center;
   color: white;
   padding: 50px;
-}
+  }
